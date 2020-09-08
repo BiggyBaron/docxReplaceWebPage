@@ -2,8 +2,7 @@
 
 Install next libraries:
 ```
-sudo pip3 install python-docx
-sudo pip3 install flask
+sudo pip3 install flask excel2json-3 python-docx
 ```
 
 This code snipped works next:

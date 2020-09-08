@@ -1,13 +1,16 @@
 <html>
    <body>
     Hello, {{name}}!<br>
-      <form action = "http://localhost:{{port}}/uploader" method = "POST" enctype = "multipart/form-data">
+
+      <!-- <form action = "http://localhost:{{port}}/uploader" method = "POST" enctype = "multipart/form-data">
          <input type = "file" name = "file" />
             Old text:
          <input type = "text" name = "oldtext" />
             New text:
          <input type = "text" name = "newtext" />
          <input type = "submit"/>
-      </form>
+      </form> -->
+
+      {{output}}
    </body>
 </html>
